@@ -6,11 +6,9 @@ cd $(dirname $0)
 # Additional dependencies
 yum -y install unzip
 
-# Dependencies per version
-case "$ODOO_VERSION" in
-    8.0)
-        pip install --no-cache simplejson
-esac
+# Frozen dependencies per version
+pip install --no-cache --requirement
+    https://raw.githubusercontent.com/OCA/OCB/$ODOO_VERSION/requirements.txt
 
 for row in $(cat list-$ODOO_VERSION.csv); do
     # Split by comma
