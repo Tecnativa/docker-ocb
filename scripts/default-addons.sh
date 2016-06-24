@@ -3,7 +3,7 @@ set -ex
 root=/opt/odoo
 cd $(dirname $0)
 
-for row in $(cat list.csv); do
+for row in $(cat list-$ODOO_VERSION.csv); do
     # Split by comma
     IFS=',' row=($row)
 
