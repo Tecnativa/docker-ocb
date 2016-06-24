@@ -3,6 +3,15 @@ set -ex
 root=/opt/odoo
 cd $(dirname $0)
 
+# Additional dependencies
+yum -y install unzip
+
+# Dependencies per version
+case "$ODOO_VERSION" in
+    8.0)
+        pip install --no-cache simplejson
+esac
+
 for row in $(cat list-$ODOO_VERSION.csv); do
     # Split by comma
     IFS=',' row=($row)
@@ -47,3 +56,7 @@ python -OO -m compileall -q $root
 
 # Grant Odoo read and execute permissions
 chmod --recursive u=rwX,go=rX $root
+
+# Clear unneeded stuff
+yum -y remove unzip
+yum clean all

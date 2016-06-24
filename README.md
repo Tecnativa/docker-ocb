@@ -20,7 +20,7 @@ the rest.
 
 ## To change the list of enabled repositories
 
-Edit the [scripts/list.csv](https://github.com/Tecnativa/docker-ocb/blob/9.0/scripts/list.csv) file. It has these columns:
+Edit the corresponding CSV file found under `./install`. It has these columns:
 
 1. Path to zip package.
 2. Path where to save (under `/opt/odoo/available`).
@@ -28,6 +28,16 @@ Edit the [scripts/list.csv](https://github.com/Tecnativa/docker-ocb/blob/9.0/scr
    keyword is supported, which will link the whole repository.
 
 So yes, we download addons directly in `.zip` files to avoid Git overhead.
+
+## To build the image
+
+Just execute:
+
+    ./hooks/build
+
+Or, to build another version of OCB:
+
+    IMAGE_NAME=user/image:8.0 ./hooks/build
 
 
 [Tecnativa]: https://www.tecnativa.com
