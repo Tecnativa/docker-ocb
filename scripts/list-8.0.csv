@@ -101,7 +101,7 @@ https://github.com/OCA/vertical-construction/archive/$ODOO_VERSION.zip,OCA/verti
 https://github.com/OCA/vertical-edition/archive/$ODOO_VERSION.zip,OCA/vertical-edition,
 https://github.com/OCA/vertical-education/archive/$ODOO_VERSION.zip,OCA/vertical-education,
 https://github.com/OCA/vertical-hotel/archive/$ODOO_VERSION.zip,OCA/vertical-hotel,
-https://github.com/OCA/vertical-isp/archive/$ODOO_VERSION.zip,OCA/vertical-isp,
+https://github.com/Tecnativa/vertical-isp/archive/$ODOO_VERSION-contract_isp_invoice-remove-garbage.zip,Tecnativa/vertical-isp,
 https://github.com/OCA/vertical-medical/archive/$ODOO_VERSION.zip,OCA/vertical-medical,
 https://github.com/OCA/vertical-ngo/archive/$ODOO_VERSION.zip,OCA/vertical-ngo,
 https://github.com/OCA/vertical-travel/archive/$ODOO_VERSION.zip,OCA/vertical-travel,
