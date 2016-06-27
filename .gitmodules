@@ -70,10 +70,6 @@
 	path = addons/available/OCA/connector-accountedge
 	url = https://github.com/OCA/connector-accountedge.git
 	branch = 9.0
-[submodule "addons/available/OCA/connector-cmis"]
-	path = addons/available/OCA/connector-cmis
-	url = https://github.com/OCA/connector-cmis.git
-	branch = 9.0
 [submodule "addons/available/OCA/connector-ecommerce"]
 	path = addons/available/OCA/connector-ecommerce
 	url = https://github.com/OCA/connector-ecommerce.git
@@ -174,14 +170,6 @@
 	path = addons/available/OCA/l10n-china
 	url = https://github.com/OCA/l10n-china.git
 	branch = 9.0
-[submodule "addons/available/OCA/l10n-colombia"]
-	path = addons/available/OCA/l10n-colombia
-	url = https://github.com/OCA/l10n-colombia.git
-	branch = 9.0
-[submodule "addons/available/OCA/l10n-costa-rica"]
-	path = addons/available/OCA/l10n-costa-rica
-	url = https://github.com/OCA/l10n-costa-rica.git
-	branch = 9.0
 [submodule "addons/available/OCA/l10n-ecuador"]
 	path = addons/available/OCA/l10n-ecuador
 	url = https://github.com/OCA/l10n-ecuador.git
@@ -202,10 +190,6 @@
 	path = addons/available/OCA/l10n-iran
 	url = https://github.com/OCA/l10n-iran.git
 	branch = 9.0
-[submodule "addons/available/OCA/l10n-ireland"]
-	path = addons/available/OCA/l10n-ireland
-	url = https://github.com/OCA/l10n-ireland.git
-	branch = 9.0
 [submodule "addons/available/OCA/l10n-italy"]
 	path = addons/available/OCA/l10n-italy
 	url = https://github.com/OCA/l10n-italy.git
@@ -214,10 +198,6 @@
 	path = addons/available/OCA/l10n-luxemburg
 	url = https://github.com/OCA/l10n-luxemburg.git
 	branch = 9.0
-[submodule "addons/available/OCA/l10n-mexico"]
-	path = addons/available/OCA/l10n-mexico
-	url = https://github.com/OCA/l10n-mexico.git
-	branch = 9.0
 [submodule "addons/available/OCA/l10n-morocco"]
 	path = addons/available/OCA/l10n-morocco
 	url = https://github.com/OCA/l10n-morocco.git
@@ -225,18 +205,6 @@
 [submodule "addons/available/OCA/l10n-netherlands"]
 	path = addons/available/OCA/l10n-netherlands
 	url = https://github.com/OCA/l10n-netherlands.git
-	branch = 9.0
-[submodule "addons/available/OCA/l10n-norway"]
-	path = addons/available/OCA/l10n-norway
-	url = https://github.com/OCA/l10n-norway.git
-	branch = 9.0
-[submodule "addons/available/OCA/l10n-peru"]
-	path = addons/available/OCA/l10n-peru
-	url = https://github.com/OCA/l10n-peru.git
-	branch = 9.0
-[submodule "addons/available/OCA/l10n-portugal"]
-	path = addons/available/OCA/l10n-portugal
-	url = https://github.com/OCA/l10n-portugal.git
 	branch = 9.0
 [submodule "addons/available/OCA/l10n-romania"]
 	path = addons/available/OCA/l10n-romania
@@ -249,10 +217,6 @@
 [submodule "addons/available/OCA/l10n-switzerland"]
 	path = addons/available/OCA/l10n-switzerland
 	url = https://github.com/OCA/l10n-switzerland.git
-	branch = 9.0
-[submodule "addons/available/OCA/l10n-taiwan"]
-	path = addons/available/OCA/l10n-taiwan
-	url = https://github.com/OCA/l10n-taiwan.git
 	branch = 9.0
 [submodule "addons/available/OCA/l10n-turkey"]
 	path = addons/available/OCA/l10n-turkey
@@ -446,19 +410,19 @@
 	path = addons/available/OCA/web
 	url = https://github.com/OCA/web.git
 	branch = 9.0
-[submodule "addons/available/OCA/webhook"]
-	path = addons/available/OCA/webhook
-	url = https://github.com/OCA/webhook.git
-	branch = 9.0
 [submodule "addons/available/OCA/webkit-tools"]
 	path = addons/available/OCA/webkit-tools
 	url = https://github.com/OCA/webkit-tools.git
-	branch = 9.0
-[submodule "addons/available/OCA/webkit-utils"]
-	path = addons/available/OCA/webkit-utils
-	url = https://github.com/OCA/webkit-utils.git
 	branch = 9.0
 [submodule "addons/available/OCA/website"]
 	path = addons/available/OCA/website
 	url = https://github.com/OCA/website.git
 	branch = 9.0
+[submodule "addons/available/OCA/l10n-peru"]
+	path = addons/available/OCA/l10n-peru
+	url = https://github.com/OCA/l10n-peru.git
+	branch = 8.0
+[submodule "addons/available/OCA/l10n-portugal"]
+	path = addons/available/OCA/l10n-portugal
+	url = https://github.com/OCA/l10n-portugal.git
+	branch = 8.0
