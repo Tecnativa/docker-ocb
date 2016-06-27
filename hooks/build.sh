@@ -1,6 +1,7 @@
 #!/bin/bash
 # See https://github.com/docker/hub-feedback/issues/508#issuecomment-222520720.
 set -x
+IMAGE_NAME=${IMAGE_NAME:-tecnativa/ocb:latest}
 
 # Get only version name
 version="$(echo $IMAGE_NAME | sed 's/.*://')"
