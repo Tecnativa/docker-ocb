@@ -13,31 +13,40 @@ The `/opt/odoo/available` folder, which holds a lot of code repositories,
 python-compiled & optimized. The folder structure is `$USER/$REPO`. You have
 BTW **all** OCA addon repositories under `/opt/odoo/available/OCA`.
 
-`/opt/odoo/extra-addons` contains a handmade selection of repositories enabled
+`addons/enabled` contains a handmade selection of repositories enabled
 by default in all instalations. **Please do not ask us to change that**, this
 is very specific to [Tecnativa][]. If you want to change it, fork & you know
 the rest.
 
-## To change the list of enabled repositories
+## Development
 
-Edit the corresponding CSV file found under `./install`. It has these columns:
+### Shallow cloning with git
 
-1. Path to zip package.
-2. Path where to save (under `/opt/odoo/available`).
-3. Addons to link in `/opt/odoo/extra-addons`. Currently, only the `all`
-   keyword is supported, which will link the whole repository.
+This repository uses submodules. To avoid slow clones and big disk usage:
 
-So yes, we download addons directly in `.zip` files to avoid Git overhead.
+    git clone --depth 1 --recursive https://github.com/Tecnativa/docker-ocb.git
 
-## To build the image
+However, shallow repositories have some limitations that could blow your head
+out when combined with submodules, so maybe you prefer to avoid all `--depth 1`
+instructions here, at the cost of more clone & update time.
 
-Just execute:
+### Updating addons
 
-    ./hooks/build
+*Available* addons are git shallow submodules, the process is a bit different.
+Let's assume you want to update the 9.0 branch:
 
-Or, to build another version of OCB:
+    BRANCH=9.0
+    git checkout $BRANCH
+    git submodule foreach git remote set-branches origin $BRANCH
 
-    IMAGE_NAME=user/image:8.0 ./hooks/build
+    # Git >= 1.8.2
+    git submodule update --remote --recursive --depth 1 --init  
 
+    # Git < 1.8.2
+    git submodule update --remote --recursive --depth 1 --init  
+    git submodule foreach git reset --hard origin/$BRANCH
+
+*Enabled* addons are just symlinks to the *available* ones, so just add or
+remove the symlinks and they will get into the docker image.
 
 [Tecnativa]: https://www.tecnativa.com
