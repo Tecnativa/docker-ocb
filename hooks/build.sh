@@ -13,10 +13,10 @@ fi
 # Required PRs
 cd ./addons/available/OCA/OCB
 git remote add tecnativa-odoo https://github.com/Tecnativa/odoo.git
-git fetch
+git fetch tecnativa-odoo
 git merge --no-edit \
-    9.0-module-addons_path_len_reversed \
-    9.0-translate-choose_right_path_with_similar_prefixes
+    tecnativa-odoo/9.0-module-addons_path_len_reversed \
+    tecnativa-odoo/9.0-translate-choose_right_path_with_similar_prefixes
 
 # Now build it
 cd ../../../..
