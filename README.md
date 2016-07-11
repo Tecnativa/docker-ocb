@@ -14,37 +14,19 @@ python-compiled & optimized. The folder structure is `$USER/$REPO`. You have
 BTW **all** OCA addon repositories under `/opt/odoo/available/OCA`.
 
 `addons/enabled` contains a handmade selection of repositories enabled
-by default in all instalations. **Please do not ask us to change that**, this
-is very specific to [Tecnativa][]. If you want to change it, fork & you know
-the rest.
+by default in all instalations.
 
 ## Development
 
-### Shallow cloning with git
+### Building
 
-This repository uses submodules. To avoid slow clones and big disk usage:
-
-    git clone --depth 1 --recursive https://github.com/Tecnativa/docker-ocb.git
-
-However, shallow repositories have some limitations that could blow your head
-out when combined with submodules, so maybe you prefer to avoid all `--depth 1`
-instructions here, at the cost of more clone & update time.
+    ./hooks/build
 
 ### Updating addons
 
-*Available* addons are git shallow submodules, the process is a bit different.
-Let's assume you want to update the 9.0 branch:
+*Available* addons are git submodules, you can update all of them by:
 
-    BRANCH=9.0
-    git checkout $BRANCH
-    git submodule foreach git remote set-branches origin $BRANCH
-
-    # Git >= 1.8.2
-    git submodule update --remote --recursive --depth 1 --init  
-
-    # Git < 1.8.2
-    git submodule update --remote --recursive --depth 1 --init  
-    git submodule foreach git reset --hard origin/$BRANCH
+    git submodule update --remote --recursive --init
 
 *Enabled* addons are just symlinks to the *available* ones, so just add or
 remove the symlinks and they will get into the docker image.
