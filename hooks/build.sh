@@ -10,6 +10,10 @@ if [ -z "$version" -o "$version" == "latest" ]; then
     version=9.0
 fi
 
+# Configure Git, required for merges as they emit a commit
+git config --global user.name "Tecnativa's Docker Hub Bot"
+git config --global user.email info@tecnativa.com
+
 # Required PRs
 cd ./addons/available/OCA/OCB
 git remote add tecnativa-odoo https://github.com/Tecnativa/odoo.git
