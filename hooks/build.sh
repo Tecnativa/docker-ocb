@@ -14,13 +14,5 @@ fi
 git config --global user.name "Tecnativa's Docker Hub Bot"
 git config --global user.email info@tecnativa.com
 
-# Required PRs
-cd ./addons/available/OCA/OCB
-git remote add tecnativa-odoo https://github.com/Tecnativa/odoo.git
-git fetch tecnativa-odoo
-git merge --no-edit \
-    tecnativa-odoo/9.0-translate-choose_right_path_with_similar_prefixes
-
 # Now build it
-cd ../../../..
 docker build --build-arg ODOO_VERSION=$version -t $IMAGE_NAME .
