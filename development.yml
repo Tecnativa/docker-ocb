@@ -31,9 +31,7 @@ services:
         command: "true"
 
     smtp:
-        extends:
-            file: common.yml
-            service: smtp
+        image: tecnativa/postfix-relay
         env_file:
             - ./env/smtp.env
 
