@@ -31,4 +31,25 @@ by default in all instalations.
 *Enabled* addons are just symlinks to the *available* ones, so just add or
 remove the symlinks and they will get into the docker image.
 
+### Using this for development
+
+You can use this image for development. First of all, clone it and activate its
+submodules:
+
+    git clone --recursive <url>
+    cd <dir>
+
+Now enter the `./env` directory and make copies of all `.sample` files wihthout
+the `.sample` suffix, and replace variables in them. If you want to know what
+each variable does, consult the docs for the image of the corresponding service
+under `./development.yml`.
+
+Then:
+
+    docker-compose -f development.yml up -d
+
+Whenever you need to make a PR for any of the submodules, you will want to add
+your remote, make changes, push... just enter the submodule directory and work
+as usual.
+
 [Tecnativa]: https://www.tecnativa.com
