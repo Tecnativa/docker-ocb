@@ -1,0 +1,44 @@
+version: "2"
+
+services:
+    odoo9:
+        image: tecnativa/ocb:9.0
+        env_file:
+            - ./env/odoo.env
+        volumes:
+            - ./addons/available:/opt/odoo/available:ro,z
+            - ./addons/enabled:/opt/odoo/extra-addons:ro,z
+        links:
+            - "db9:db"
+            - wdb
+            - smtp
+        volumes_from:
+            - odoodata9
+
+    odoodata9:
+        image: tecnativa/ocb:9.0
+        command: "true"
+
+    db9:
+        image: postgres:9.2
+        env_file:
+            - ./env/db.env
+        volumes_from:
+            - dbdata9
+
+    dbdata9:
+        image: postgres:9.2
+        command: "true"
+
+    smtp:
+        extends:
+            file: common.yml
+            service: smtp
+        env_file:
+            - ./env/smtp.env
+
+    wdb:
+        image: yajo/wdb-server
+        ports:
+            - "1984:1984"
+            - "19840:19840"
