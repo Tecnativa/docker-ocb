@@ -1,4 +1,4 @@
-FROM yajo/odoo:9.0
+FROM yajo/odoo:8.0
 MAINTAINER Tecnativa <info@tecnativa.com>
 
 COPY addons/available /opt/odoo/available
