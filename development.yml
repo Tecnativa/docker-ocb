@@ -1,8 +1,8 @@
 version: "2"
 
 services:
-    odoo9:
-        image: tecnativa/ocb:9.0
+    odoo8:
+        image: tecnativa/ocb:8.0
         env_file:
             - ./env/odoo.env
         ports:
@@ -12,24 +12,24 @@ services:
             - ./addons/available:/opt/odoo/available:ro,z
             - ./addons/enabled:/opt/odoo/extra-addons:ro,z
         links:
-            - "db9:db"
+            - "db8:db"
             - wdb
             - smtp
         volumes_from:
-            - odoodata9
+            - odoodata8
 
-    odoodata9:
-        image: tecnativa/ocb:9.0
+    odoodata8:
+        image: tecnativa/ocb:8.0
         command: "true"
 
-    db9:
+    db8:
         image: postgres:9.2
         env_file:
             - ./env/db.env
         volumes_from:
-            - dbdata9
+            - dbdata8
 
-    dbdata9:
+    dbdata8:
         image: postgres:9.2
         command: "true"
 
