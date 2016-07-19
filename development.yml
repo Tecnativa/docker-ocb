@@ -5,6 +5,9 @@ services:
         image: tecnativa/ocb:9.0
         env_file:
             - ./env/odoo.env
+        ports:
+            - "80:8069"
+            - "8072:8072"
         volumes:
             - ./addons/available:/opt/odoo/available:ro,z
             - ./addons/enabled:/opt/odoo/extra-addons:ro,z
