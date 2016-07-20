@@ -1,5 +1,8 @@
 # [WIP] Odoo with all OCA code (OCB + addon repositories)
 
+[![Docker Stars](https://img.shields.io/docker/stars/tecnativa/ocb.svg?style=flat-square)](https://hub.docker.com/r/tecnativa/ocb)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tecnativa/ocb.svg?style=flat-square)](https://hub.docker.com/r/tecnativa/ocb)
+
 ## Usage
 
 First of all, please read help for
