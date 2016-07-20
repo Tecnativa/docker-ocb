@@ -1,423 +1,423 @@
 [submodule "addons/available/OCA/account-analytic"]
 	path = addons/available/OCA/account-analytic
 	url = https://github.com/OCA/account-analytic.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/account-budgeting"]
 	path = addons/available/OCA/account-budgeting
 	url = https://github.com/OCA/account-budgeting.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/account-closing"]
 	path = addons/available/OCA/account-closing
 	url = https://github.com/OCA/account-closing.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/account-consolidation"]
 	path = addons/available/OCA/account-consolidation
 	url = https://github.com/OCA/account-consolidation.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/account-financial-tools"]
 	path = addons/available/OCA/account-financial-tools
 	url = https://github.com/OCA/account-financial-tools.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/account-fiscal-rule"]
 	path = addons/available/OCA/account-fiscal-rule
 	url = https://github.com/OCA/account-fiscal-rule.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/account-invoicing"]
 	path = addons/available/OCA/account-invoicing
 	url = https://github.com/OCA/account-invoicing.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/account-payment"]
 	path = addons/available/OCA/account-payment
 	url = https://github.com/OCA/account-payment.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/bank-payment"]
 	path = addons/available/OCA/bank-payment
 	url = https://github.com/OCA/bank-payment.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/bank-statement-import"]
 	path = addons/available/OCA/bank-statement-import
 	url = https://github.com/OCA/bank-statement-import.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/banking"]
 	path = addons/available/OCA/banking
 	url = https://github.com/OCA/banking.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/carrier-delivery"]
 	path = addons/available/OCA/carrier-delivery
 	url = https://github.com/OCA/carrier-delivery.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/account-financial-reporting"]
 	path = addons/available/OCA/account-financial-reporting
 	url = https://github.com/OCA/account-financial-reporting.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/account-invoice-reporting"]
 	path = addons/available/OCA/account-invoice-reporting
 	url = https://github.com/OCA/account-invoice-reporting.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/bank-statement-reconcile"]
 	path = addons/available/OCA/bank-statement-reconcile
 	url = https://github.com/OCA/bank-statement-reconcile.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/commission"]
 	path = addons/available/OCA/commission
 	url = https://github.com/OCA/commission.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/community-data-files"]
 	path = addons/available/OCA/community-data-files
 	url = https://github.com/OCA/community-data-files.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-accountedge"]
 	path = addons/available/OCA/connector-accountedge
 	url = https://github.com/OCA/connector-accountedge.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-ecommerce"]
 	path = addons/available/OCA/connector-ecommerce
 	url = https://github.com/OCA/connector-ecommerce.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-lims"]
 	path = addons/available/OCA/connector-lims
 	url = https://github.com/OCA/connector-lims.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-magento"]
 	path = addons/available/OCA/connector-magento
 	url = https://github.com/OCA/connector-magento.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-odoo2odoo"]
 	path = addons/available/OCA/connector-odoo2odoo
 	url = https://github.com/OCA/connector-odoo2odoo.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-prestashop"]
 	path = addons/available/OCA/connector-prestashop
 	url = https://github.com/OCA/connector-prestashop.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-redmine"]
 	path = addons/available/OCA/connector-redmine
 	url = https://github.com/OCA/connector-redmine.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-sage-50"]
 	path = addons/available/OCA/connector-sage-50
 	url = https://github.com/OCA/connector-sage-50.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-salesforce"]
 	path = addons/available/OCA/connector-salesforce
 	url = https://github.com/OCA/connector-salesforce.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector-woocommerce"]
 	path = addons/available/OCA/connector-woocommerce
 	url = https://github.com/OCA/connector-woocommerce.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/connector"]
 	path = addons/available/OCA/connector
 	url = https://github.com/OCA/connector.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/contract"]
 	path = addons/available/OCA/contract
 	url = https://github.com/OCA/contract.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/crm"]
 	path = addons/available/OCA/crm
 	url = https://github.com/OCA/crm.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/department"]
 	path = addons/available/OCA/department
 	url = https://github.com/OCA/department.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/donation"]
 	path = addons/available/OCA/donation
 	url = https://github.com/OCA/donation.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/e-commerce"]
 	path = addons/available/OCA/e-commerce
 	url = https://github.com/OCA/e-commerce.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/event"]
 	path = addons/available/OCA/event
 	url = https://github.com/OCA/event.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/geospatial"]
 	path = addons/available/OCA/geospatial
 	url = https://github.com/OCA/geospatial.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/hr-timesheet"]
 	path = addons/available/OCA/hr-timesheet
 	url = https://github.com/OCA/hr-timesheet.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/hr"]
 	path = addons/available/OCA/hr
 	url = https://github.com/OCA/hr.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/knowledge"]
 	path = addons/available/OCA/knowledge
 	url = https://github.com/OCA/knowledge.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-argentina"]
 	path = addons/available/OCA/l10n-argentina
 	url = https://github.com/OCA/l10n-argentina.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-belgium"]
 	path = addons/available/OCA/l10n-belgium
 	url = https://github.com/OCA/l10n-belgium.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-brazil"]
 	path = addons/available/OCA/l10n-brazil
 	url = https://github.com/OCA/l10n-brazil.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-canada"]
 	path = addons/available/OCA/l10n-canada
 	url = https://github.com/OCA/l10n-canada.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-china"]
 	path = addons/available/OCA/l10n-china
 	url = https://github.com/OCA/l10n-china.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-ecuador"]
 	path = addons/available/OCA/l10n-ecuador
 	url = https://github.com/OCA/l10n-ecuador.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-france"]
 	path = addons/available/OCA/l10n-france
 	url = https://github.com/OCA/l10n-france.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-germany"]
 	path = addons/available/OCA/l10n-germany
 	url = https://github.com/OCA/l10n-germany.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-india"]
 	path = addons/available/OCA/l10n-india
 	url = https://github.com/OCA/l10n-india.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-iran"]
 	path = addons/available/OCA/l10n-iran
 	url = https://github.com/OCA/l10n-iran.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-italy"]
 	path = addons/available/OCA/l10n-italy
 	url = https://github.com/OCA/l10n-italy.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-luxemburg"]
 	path = addons/available/OCA/l10n-luxemburg
 	url = https://github.com/OCA/l10n-luxemburg.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-morocco"]
 	path = addons/available/OCA/l10n-morocco
 	url = https://github.com/OCA/l10n-morocco.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-netherlands"]
 	path = addons/available/OCA/l10n-netherlands
 	url = https://github.com/OCA/l10n-netherlands.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-romania"]
 	path = addons/available/OCA/l10n-romania
 	url = https://github.com/OCA/l10n-romania.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-spain"]
 	path = addons/available/OCA/l10n-spain
 	url = https://github.com/OCA/l10n-spain.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-switzerland"]
 	path = addons/available/OCA/l10n-switzerland
 	url = https://github.com/OCA/l10n-switzerland.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-turkey"]
 	path = addons/available/OCA/l10n-turkey
 	url = https://github.com/OCA/l10n-turkey.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-united-kingdom"]
 	path = addons/available/OCA/l10n-united-kingdom
 	url = https://github.com/OCA/l10n-united-kingdom.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-usa"]
 	path = addons/available/OCA/l10n-usa
 	url = https://github.com/OCA/l10n-usa.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/management-system"]
 	path = addons/available/OCA/management-system
 	url = https://github.com/OCA/management-system.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/manufacture-reporting"]
 	path = addons/available/OCA/manufacture-reporting
 	url = https://github.com/OCA/manufacture-reporting.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/manufacture"]
 	path = addons/available/OCA/manufacture
 	url = https://github.com/OCA/manufacture.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/margin-analysis"]
 	path = addons/available/OCA/margin-analysis
 	url = https://github.com/OCA/margin-analysis.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/multi-company"]
 	path = addons/available/OCA/multi-company
 	url = https://github.com/OCA/multi-company.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/OCB"]
 	path = addons/available/OCA/OCB
 	url = https://github.com/OCA/OCB.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/operating-unit"]
 	path = addons/available/OCA/operating-unit
 	url = https://github.com/OCA/operating-unit.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/partner-contact"]
 	path = addons/available/OCA/partner-contact
 	url = https://github.com/OCA/partner-contact.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/pos"]
 	path = addons/available/OCA/pos
 	url = https://github.com/OCA/pos.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/product-attribute"]
 	path = addons/available/OCA/product-attribute
 	url = https://github.com/OCA/product-attribute.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/product-kitting"]
 	path = addons/available/OCA/product-kitting
 	url = https://github.com/OCA/product-kitting.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/product-variant"]
 	path = addons/available/OCA/product-variant
 	url = https://github.com/OCA/product-variant.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/project-reporting"]
 	path = addons/available/OCA/project-reporting
 	url = https://github.com/OCA/project-reporting.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/project"]
 	path = addons/available/OCA/project
 	url = https://github.com/OCA/project.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/purchase-reporting"]
 	path = addons/available/OCA/purchase-reporting
 	url = https://github.com/OCA/purchase-reporting.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/purchase-workflow"]
 	path = addons/available/OCA/purchase-workflow
 	url = https://github.com/OCA/purchase-workflow.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/report-print-send"]
 	path = addons/available/OCA/report-print-send
 	url = https://github.com/OCA/report-print-send.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/reporting-engine"]
 	path = addons/available/OCA/reporting-engine
 	url = https://github.com/OCA/reporting-engine.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/rma"]
 	path = addons/available/OCA/rma
 	url = https://github.com/OCA/rma.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/runbot-addons"]
 	path = addons/available/OCA/runbot-addons
 	url = https://github.com/OCA/runbot-addons.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/sale-financial"]
 	path = addons/available/OCA/sale-financial
 	url = https://github.com/OCA/sale-financial.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/sale-reporting"]
 	path = addons/available/OCA/sale-reporting
 	url = https://github.com/OCA/sale-reporting.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/sale-workflow"]
 	path = addons/available/OCA/sale-workflow
 	url = https://github.com/OCA/sale-workflow.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/server-tools"]
 	path = addons/available/OCA/server-tools
 	url = https://github.com/OCA/server-tools.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/social"]
 	path = addons/available/OCA/social
 	url = https://github.com/OCA/social.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/stock-logistics-barcode"]
 	path = addons/available/OCA/stock-logistics-barcode
 	url = https://github.com/OCA/stock-logistics-barcode.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/stock-logistics-reporting"]
 	path = addons/available/OCA/stock-logistics-reporting
 	url = https://github.com/OCA/stock-logistics-reporting.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/stock-logistics-tracking"]
 	path = addons/available/OCA/stock-logistics-tracking
 	url = https://github.com/OCA/stock-logistics-tracking.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/stock-logistics-transport"]
 	path = addons/available/OCA/stock-logistics-transport
 	url = https://github.com/OCA/stock-logistics-transport.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/stock-logistics-warehouse"]
 	path = addons/available/OCA/stock-logistics-warehouse
 	url = https://github.com/OCA/stock-logistics-warehouse.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/stock-logistics-workflow"]
 	path = addons/available/OCA/stock-logistics-workflow
 	url = https://github.com/OCA/stock-logistics-workflow.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/survey"]
 	path = addons/available/OCA/survey
 	url = https://github.com/OCA/survey.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-abbey"]
 	path = addons/available/OCA/vertical-abbey
 	url = https://github.com/OCA/vertical-abbey.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-agriculture"]
 	path = addons/available/OCA/vertical-agriculture
 	url = https://github.com/OCA/vertical-agriculture.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-association"]
 	path = addons/available/OCA/vertical-association
 	url = https://github.com/OCA/vertical-association.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-community"]
 	path = addons/available/OCA/vertical-community
 	url = https://github.com/OCA/vertical-community.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-construction"]
 	path = addons/available/OCA/vertical-construction
 	url = https://github.com/OCA/vertical-construction.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-edition"]
 	path = addons/available/OCA/vertical-edition
 	url = https://github.com/OCA/vertical-edition.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-education"]
 	path = addons/available/OCA/vertical-education
 	url = https://github.com/OCA/vertical-education.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-hotel"]
 	path = addons/available/OCA/vertical-hotel
 	url = https://github.com/OCA/vertical-hotel.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-isp"]
 	path = addons/available/OCA/vertical-isp
 	url = https://github.com/OCA/vertical-isp.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-medical"]
 	path = addons/available/OCA/vertical-medical
 	url = https://github.com/OCA/vertical-medical.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-ngo"]
 	path = addons/available/OCA/vertical-ngo
 	url = https://github.com/OCA/vertical-ngo.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/vertical-travel"]
 	path = addons/available/OCA/vertical-travel
 	url = https://github.com/OCA/vertical-travel.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/web"]
 	path = addons/available/OCA/web
 	url = https://github.com/OCA/web.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/webkit-tools"]
 	path = addons/available/OCA/webkit-tools
 	url = https://github.com/OCA/webkit-tools.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/website"]
 	path = addons/available/OCA/website
 	url = https://github.com/OCA/website.git
-	branch = 9.0
+	branch = 8.0
 [submodule "addons/available/OCA/l10n-peru"]
 	path = addons/available/OCA/l10n-peru
 	url = https://github.com/OCA/l10n-peru.git
