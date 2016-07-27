@@ -63,7 +63,7 @@ Restart Odoo quickly (required when you change Python code):
 
 Output containers log to the console
 
-    docker-compose -f development.yml logs -f       # From all containers
+    docker-compose -f development.yml logs -f --tail 50 # From all containers
     docker-compose -f development.yml logs -f odoo9 # Just from Odoo
 
 Stop your whole environment:
