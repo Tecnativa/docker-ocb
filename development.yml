@@ -3,6 +3,7 @@ version: "2"
 services:
     odoo9:
         image: tecnativa/ocb:9.0
+        tty: true
         env_file:
             - ./env/odoo.env
         ports:
