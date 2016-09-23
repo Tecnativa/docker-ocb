@@ -2,6 +2,7 @@
 # See https://github.com/docker/hub-feedback/issues/508#issuecomment-222520720.
 set -ex
 IMAGE_NAME=${IMAGE_NAME:-tecnativa/ocb:latest}
+DIR="$(pwd)"
 
 # Get only version name
 version="$(echo $IMAGE_NAME | sed 's/.*://')"
@@ -14,5 +15,10 @@ fi
 git config --global user.name "Tecnativa's Docker Hub Bot"
 git config --global user.email info@tecnativa.com
 
+# Required PRs
+cd $DIR/addons/available/OCA/account-financial-reporting
+git fetch origin pull/229/head:pr229
+git merge --no-edit pr229
+
 # Now build it
-docker build --build-arg ODOO_VERSION=$version -t $IMAGE_NAME .
+docker build --build-arg ODOO_VERSION=$version -t $IMAGE_NAME "$DIR"
