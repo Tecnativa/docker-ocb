@@ -122,10 +122,6 @@
 	path = addons/available/OCA/crm
 	url = https://github.com/OCA/crm.git
 	branch = 9.0
-[submodule "addons/available/OCA/department"]
-	path = addons/available/OCA/department
-	url = https://github.com/OCA/department.git
-	branch = 9.0
 [submodule "addons/available/OCA/donation"]
 	path = addons/available/OCA/donation
 	url = https://github.com/OCA/donation.git
