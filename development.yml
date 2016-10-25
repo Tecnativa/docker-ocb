@@ -1,7 +1,7 @@
 version: "2"
 
 services:
-    odoo9:
+    odoo10:
         image: tecnativa/ocb:10.0
         tty: true
         env_file:
@@ -13,24 +13,24 @@ services:
             - ./addons/available:/opt/odoo/available:ro,z
             - ./addons/enabled:/opt/odoo/extra-addons:ro,z
         links:
-            - "db9:db"
+            - "db10:db"
             - wdb
             - smtp
         volumes_from:
-            - odoodata9
+            - odoodata10
 
-    odoodata9:
+    odoodata10:
         image: tecnativa/ocb:10.0
         command: "true"
 
-    db9:
+    db10:
         image: postgres:9.2
         env_file:
             - ./env/db.env
         volumes_from:
-            - dbdata9
+            - dbdata10
 
-    dbdata9:
+    dbdata10:
         image: postgres:9.2
         command: "true"
 
