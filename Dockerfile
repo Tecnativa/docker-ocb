@@ -1,7 +1,7 @@
-FROM yajo/odoo:9.0
+FROM yajo/odoo:10.0
 MAINTAINER Tecnativa <info@tecnativa.com>
 
-ARG ODOO_VERSION=9.0
+ARG ODOO_VERSION=10.0
 
 COPY addons/available /opt/odoo/available
 COPY addons/enabled /opt/odoo/extra-addons

@@ -2,7 +2,7 @@ version: "2"
 
 services:
     odoo9:
-        image: tecnativa/ocb:9.0
+        image: tecnativa/ocb:10.0
         tty: true
         env_file:
             - ./env/odoo.env
@@ -20,7 +20,7 @@ services:
             - odoodata9
 
     odoodata9:
-        image: tecnativa/ocb:9.0
+        image: tecnativa/ocb:10.0
         command: "true"
 
     db9:
