@@ -5,7 +5,7 @@ services:
         image: tecnativa/ocb:8.0
         tty: true
         env_file:
-            - ./env/odoo.env
+            - ./env/odoo8.env
         ports:
             - "8069"
             - "8072"
