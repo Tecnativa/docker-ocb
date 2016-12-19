@@ -15,5 +15,14 @@ fi
 git config --global user.name "Tecnativa's Docker Hub Bot"
 git config --global user.email info@tecnativa.com
 
+# Merge required pull request
+merge_pr () {
+    cd $DIR/addons/available/OCA/$1
+    git fetch origin pull/$2/head:pr$2
+    git merge --no-edit pr$2
+}
+
+merge_pr reporting-engine 88
+
 # Now build it
 docker build --build-arg ODOO_VERSION=$version -t $IMAGE_NAME "$DIR"
