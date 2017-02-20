@@ -7,7 +7,7 @@ services:
         env_file:
             - ./env/odoo9.env
         ports:
-            - "8069"
+            - "9069:8069"
             - "8072"
         volumes:
             - ./addons/available:/opt/odoo/available:ro,z
