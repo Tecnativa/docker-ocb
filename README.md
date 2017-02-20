@@ -3,6 +3,10 @@
 [![Docker Stars](https://img.shields.io/docker/stars/tecnativa/ocb.svg?style=flat-square)](https://hub.docker.com/r/tecnativa/ocb)
 [![Docker Pulls](https://img.shields.io/docker/pulls/tecnativa/ocb.svg?style=flat-square)](https://hub.docker.com/r/tecnativa/ocb)
 
+# DEPRECATED
+
+This project is being deprecated in favor of https://github.com/Tecnativa/docker-odoo-base, head there now please :wink:
+
 ## Usage
 
 First of all, please read help for
